@@ -1,0 +1,5 @@
+<p>test-page1 works!</p>
+<button type="button" class="btn btn-outline-primary"
+        (click)="onClickIncrementValue()" >Increment</button>
+<input disabled="true" [value] = "numberValue">
+<input [value]="numberValue" (input)="onInputChanged($event)">

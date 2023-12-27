@@ -1,0 +1,31 @@
+<!-- menu-nav-bar.component.html -->
+<a routerLink="/"><fa-icon [icon]="faHome"/>Home</a>
+<a class="dropdown-item" routerLink="/test-page1">Test Page1</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href = "#">Navbar</a>
+  <ul class="navbar-nav mr-auto">
+    <li ngbDropdown class="nav_item">
+      <a ngbDropdownToggle id="navbarMenu1" class="nav-link dropdown-toggle" role="button">Search
+      </a>
+      <div ngbDropdownMenu aria-labelledby="navbarMenu2" class="dropdownmenu">
+        <a class="dropdown-item" routerLink="/lesson-search-page">Lesson Search Page...</a>
+      </div>
+    </li>
+    <li ngbDropdown class="nav_item">
+      <a ngbDropdownToggle id="navbarMenu2" class="nav-link dropdown-toggle" role="button">Edit
+      </a>
+      <div ngbDropdownMenu aria-labelledby="navbarMenu2" class="dropdownmenu">
+        <a class="dropdown-item" routerLink="/lesson-edit-form">Lesson Edit
+          Form...</a>
+      </div>
+    </li>
+    <li ngbDropdown class="nav_item">
+      <a ngbDropdownToggle id="navbarMenu3" class="nav-link dropdown-toggle" role="button">List
+      </a>
+      <div ngbDropdownMenu aria-labelledby="navbarMenu3" class="dropdownmenu">
+        <a class="dropdown-item" routerLink="/lesson-list-page">Lesson List Page...</a>
+      </div>
+    </li>
+  </ul>
+
+</nav>

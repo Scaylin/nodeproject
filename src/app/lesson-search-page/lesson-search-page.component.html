@@ -1,0 +1,89 @@
+<!-- lesson-search-page.component.html -->
+
+<div class="container">
+  <h1>Lesson Search</h1>
+
+  <form>
+    <div class="form-group">
+      <label for="title">Title</label>
+      <select class="form-control rounded" id="title-operator">
+        <!-- Options for operator -->
+      </select>
+      <input type="text" class="form-control rounded" id="title" placeholder="Enter title">
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      <select class="form-control rounded" id="description-operator">
+        <!-- Options for operator -->
+      </select>
+      <input type="text" class="form-control rounded" id="description" placeholder="Enter description">
+    </div>
+
+    <div class="form-group">
+      <label for="category">Category</label>
+      <select class="form-control rounded" id="category-operator">
+        <!-- Options for operator -->
+      </select>
+      <input type="text" class="form-control rounded" id="category" placeholder="Enter category">
+    </div>
+
+    <div class="form-group">
+      <label id="level" for="level">Level</label>
+      <select class="form-control rounded" id="level-operator">
+        <!-- Options for operator -->
+      </select>
+      <input type="number" class="form-control rounded" id="level-min" placeholder="Min">
+      <input type="number" class="form-control rounded" id="level-max" placeholder="Max">
+    </div>
+
+    <div class="form-group">
+      <label for="tags">Tags</label>
+      <select class="form-control rounded" id="tags-operator">
+        <!-- Options for operator -->
+      </select>
+      <input type="text" class="form-control rounded" id="tags" placeholder="Enter tags">
+    </div>
+
+    <div class="form-group">
+      <label for="author">Author</label>
+      <select class="form-control rounded" id="author-operator">
+        <!-- Options for operator -->
+      </select>
+      <input type="text" class="form-control rounded" id="author" placeholder="Enter author">
+    </div>
+
+    <div class="form-group">
+      <label id="lastModifiedDate" for="lastModifiedDate">Last Modified Date</label>
+      <div class="input-group">
+        <input type="text" class="form-control rounded" id="lastModifiedDate-start" placeholder="Start Date">
+        <div class="input-group-append">
+          <span class="input-group-text">
+            <i class="fa fa-calendar"></i>
+          </span>
+        </div>
+      </div>
+      <div class="input-group">
+        <input type="text" class="form-control rounded" id="lastModifiedDate-end" placeholder="End Date">
+        <div class="input-group-append">
+          <span class="input-group-text">
+            <i class="fa fa-calendar"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="searchMode">Search Mode</label>
+      <select class="form-control rounded" id="searchMode">
+        <option value="basic">Basic</option>
+        <option value="advanced">Advanced</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+  </form>
+
+</div>

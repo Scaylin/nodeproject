@@ -1,0 +1,62 @@
+<button class="btn btn-primary" [routerLink]="['/lesson',1234]">Detail for lesson 1234</button>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <label for="title">Title:</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" id="title" name="title" [(ngModel)]="lessonPackage.title">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label for="description">Description:</label>
+    </div>
+    <div class="col-md-9">
+      <textarea id="description" name="description" [(ngModel)]="lessonPackage.description"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label for="category">Category:</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" id="category" name="category" [(ngModel)]="lessonPackage.category">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label for="level">Level:</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" id="level" name="level" [(ngModel)]="lessonPackage.level">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label for="prerequisite">Prerequisite:</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" id="prerequisite" name="prerequisite" [(ngModel)]="lessonPackage.prerequisite">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label for="tags">Tags:</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" id="tags" name="tags" [(ngModel)]="lessonPackage.tags">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label for="copyright">Copyright:</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" id="copyright" name="copyright" [(ngModel)]="lessonPackage.copyright">
+    </div>
+  </div>
+  <button type="button" class="btn btn-primary"
+          (click)="onClickSubmit()">Submit</button>
+</div>
+
