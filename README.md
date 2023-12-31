@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
+## Team members :
+
+- Victor QIAN
+- Louis RUBEUS
+- Killian LAFAYE
+- Swan JOULIN
+
 ## Presentation of the project
 
 This project is designed as a learning platform inspired by anki and based upon what was built during our different TPs. 
