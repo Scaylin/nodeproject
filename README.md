@@ -1,8 +1,8 @@
-# Tp3final
+# Project Node
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
-## Présentation de notre projet
+## Presentation of the project
 
 This project is designed as a learning platform inspired by anki and based upon what was built during our different TPs. 
 Anki uses personalisable flashcards for learning, in our project those cards are implemented as customizable lessons.
