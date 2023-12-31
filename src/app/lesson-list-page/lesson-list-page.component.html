@@ -1,0 +1,12 @@
+
+<!-- lesson-list-page.component.html -->
+<div class="container">
+<div>
+    <h1>Lesson List Page</h1>
+    <div *ngFor="let lesson of storedLessons">
+        <h2>{{ lesson.title }}</h2>
+        <p>Category: {{ lesson.category }}</p>
+        <!-- Display other lesson details as needed -->
+    </div>
+</div>
+</div>
