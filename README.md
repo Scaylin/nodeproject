@@ -15,6 +15,11 @@ The Search Tap allows for quick and easy access to lessons, it performs like any
 Lessons can be created within the lesson Creation Tab. Its usage is simple: enter the information in the corresponding spaces and submit it.
 Finally The List Tab allows quick access to the whole available database of lessons
 
+## Contribution
+
+For our project every member actively contributed to the project however that is not reflected on the commit history as we had trouble adjusting to github.
+
+We worked together on the different features, everyone did about 25%.
 
 ## Development server
 
