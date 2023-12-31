@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
+## Présentation de notre projet
+
+This project is designed as a learning platform inspired by anki and based upon what was built during our different TPs. 
+Anki uses personalisable flashcards for learning, in our project those cards are implemented as customizable lessons.
+Our website is composed of the page and a topside navigation bar allowing access to the different sections. 
+The different sections are : Home, Search, Edit And List
+Our website is structured around the lessons provided by users.
+The features of those lessons are:
+Tittle , Description, category , level, prerequisite, tags, copyright.
+The Search Tap allows for quick and easy access to lessons, it performs like any search bar. The user inputs search terms and the corresponding lessons will be displayed.
+Lessons can be created within the lesson Creation Tab. Its usage is simple: enter the information in the corresponding spaces and submit it.
+Finally The List Tab allows quick access to the whole available database of lessons
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
